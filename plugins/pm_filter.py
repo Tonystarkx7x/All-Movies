@@ -433,13 +433,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('💸 Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʙᴀʙᴇ 💸', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Movie Updates ⚡', url=f"https://telegram.me/real_MoviesAdda1"),
-            InlineKeyboardButton('🔔 BOT Updates 🤖', url='https://t.me/LazyDeveloper')
+            InlineKeyboardButton('⚡ Mᴏᴠɪᴇs ɢʀᴏᴜᴘ ⚡', url=f"https://telegram.me/Allmovie4uuu"),
+            InlineKeyboardButton('🤖 Bᴏᴛ Uᴘᴅᴀᴛᴇ 🤖', url='https://t.me/LazyDeveloper')
             ],[
-             InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
-            InlineKeyboardButton('♥️ About ♥️', callback_data='about')
+             InlineKeyboardButton('🙆🏻 Hᴇʟᴘ 🙆🏻', callback_data='help'),
+            InlineKeyboardButton('⚡ Aʙᴏᴜᴛ ⚡', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
